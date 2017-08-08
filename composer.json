@@ -20,7 +20,7 @@
             "database/factories"
         ],
         "psr-4": {
-            "FreshSunday\\": "app/"
+            "App\\": "app/"
         }
     },
     "autoload-dev": {

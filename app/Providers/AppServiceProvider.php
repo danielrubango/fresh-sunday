@@ -1,6 +1,6 @@
 <?php
 
-namespace FreshSunday\Providers;
+namespace App\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

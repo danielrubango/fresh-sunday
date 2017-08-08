@@ -171,11 +171,11 @@ return [
         /*
          * Application Service Providers...
          */
-        FreshSunday\Providers\AppServiceProvider::class,
-        FreshSunday\Providers\AuthServiceProvider::class,
-        // FreshSunday\Providers\BroadcastServiceProvider::class,
-        FreshSunday\Providers\EventServiceProvider::class,
-        FreshSunday\Providers\RouteServiceProvider::class,
+        App\Providers\AppServiceProvider::class,
+        App\Providers\AuthServiceProvider::class,
+        // App\Providers\BroadcastServiceProvider::class,
+        App\Providers\EventServiceProvider::class,
+        App\Providers\RouteServiceProvider::class,
 
     ],
 

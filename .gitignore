@@ -1,6 +1,9 @@
 /node_modules
+/node_modules2
 /public/hot
 /public/storage
+/resources/assets/vue
+/resources/assets/static
 /storage/*.key
 /vendor
 /.idea
