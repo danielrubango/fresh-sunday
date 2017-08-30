@@ -6,42 +6,65 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-5">
-                    <h4>Pyramide Hotel</h4>
-                    <p>Pyramide Hotel was these three and songs arose whose. Of in vicinity contempt together in possible branched. Assured company hastily looking garrets in oh. Most have love my gone to this so. Discovered interested prosperous the our affronting insipidity day. Missed lovers way one vanity wishes nay but. Use shy seemed within twenty wished old few regret passed. Absolute one hastened mrs any sensible. </p>
+                  <i class="fa fa-bed" aria-hidden="true" ata-toggle="tooltip" data-placement="top" data-original-title="Ledya Pyramide Hotel">
+                      <h4>Ledya Pyramide Hôtel</h4>
+                  </i>  
+                    <p style="text-align: justify-all;">Ledya Pyramide Hôtel est l'un des hôtels de la capitale qui vous
+                    offre des chambres calmes et des équipements modernes repondant aux normes internationale avec 3 Etoiles 
+                    Avec sa devise qui est : "vivez le confort dans la discretion", Il s'assure que ses clients passent de très bons moment dans une grande discretion et confort où ils n'auront pas à penser aux stresses du boulot ou autres...  </p>
                 </div>              
                  
                  <div class="col-sm-2">
-                    <h4>Quick Links</h4>
+                   <i> <h4>Quick Links</h4></i>
                     <ul class="list-unstyled">
-                        <li><a href="index.php" data-original-title="accueil">Accueil</a></li> 
+                        <li><a href="index.php#link-a" data-original-title="accueil">Accueil</a></li> 
                         <li><a href="Chambre-tariff.php" data-original-title="chambre">Chambre & Tariff</a></li>        
                         <li><a href="activites.php" data-original-title="activité">Nos activités</a></li>
                         <li><a href="photos.php" data-original-title="gallery">Nos photos</a></li>
-                        <!--li><a href="tour.php">Tour Packages</a></li-->
+                        
                         <li><a href="contact.php">Contact</a></li>
                     </ul>
                 </div>
                 <div class="col-sm-3">
-                <h4>Suiver nous !</h4>
+                <i><h4>Contacter nous </h4></i>
                      <div class="social">
                         <ul class="list-unstyled">
-                            <li><a href="#"><i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"> Facebook</i></a></li>
-                            <li><a href="#"><i class="fa fa-gmail"  data-toggle="tooltip" data-placement="top" data-original-title="Gmail"> Gmail</i></a></li>
-                            <li><a href="#"><i class="fa fa-twitter-square" data-toggle="tooltip" data-placement="top" data-original-title="twitter"> Twitter</i></a></li>
+                            <li>
+                            <a href="https://web.facebook.com/pyramide.hotel.7">
+                            <i class="fa fa-facebook-square" data-toggle="tooltip" data-placement="top" data-original-title="facebook"> Facebook</i></a></li>
+                            <li>
+                            <a href="mailto:pyaramidehotel@gmail.com">
+                            <i class="fa fa-google-plus-square"  data-toggle="tooltip" data-placement="top" data-original-title="gmail"> Gmail</i></a></li>
+                            <li>
+                            <a href="https://www.instagram.com/LedyaPyramideHotel/">
+                            <i class="fa fa-instagram" data-toggle="tooltip" data-placement="top" data-original-title="twitter"> Instagram</i></a></li>
                             
                         </ul>
                     </div>
                 </div>
                
                     <div class="col-sm-4 subscribe">
-                        <h4>Subscription</h4>
-                        <div class="input-group">
-                            <input type="text" class="form-control" placeholder="Enter email id here">
-                            <span class="input-group-btn">
-                            <button class="btn btn-default" type="button">Suscrire</button>
-                            </span>
-                        </div>
+                       <i> <h4>Souscrire à nos notifications</h4></i>
+                        <form role="form" action="" methode="POST">
+                            <div class="input-group">
+                                <input type="email" name="email" class="form-control" placeholder="Entrer votre adresse E-mail">
+                                <span class="input-group-btn">
+                                <button class="btn btn-default" type="button">Approuver</button>
+                                </span>
+                            </div>
+                        </form>
                     </div>
+    <?php
+        if(isset($_POST) && !empty($_POST['email']) ) {
+            extract($_POST);
+                $detinataire='pyramidehotel@gmail.com';
+                $expediteur=$email. '<' .$email. '>';
+                $mail=mail($destinataire,$objet,$message,$expediteur.' :  pangakev.com : Mail de test');
+            if($mail) echo'Nous avons reçu votre adresse!!';
+            else echo'echec d\'envoi';
+         }
+
+    ?> 
                 
             <!--/.row-->
         </div>

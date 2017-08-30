@@ -46,8 +46,9 @@ $('.carousel').swipe( {
      allowPageScroll: 'vertical'
  });
 
-/*Moving for banner
 
+
+/*Moving for banner
 var slidershow = (function(){
     var self={},
     config={

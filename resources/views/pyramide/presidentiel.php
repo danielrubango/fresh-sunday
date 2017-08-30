@@ -4,7 +4,7 @@
 
 <br>
 
-<a href="chambre-tariff.php?page=chambre&tariff"><center>Chambre & Tariff </a> ♦suite Junior</center> <br>
+<a href="chambre-tariff.php?page=chambre&tariff"><center>Chambre & Tariff </a> ♦suite présidentielle</center> <br>
 
 
 <!-- form -->
@@ -18,11 +18,22 @@
        <div id="RoomDetails" class="carousel slide" data-ride="carousel">
                       <div class="carousel-inner">
                         <div class="item active">
-                          <img src="images/photos/8.jpg"  height="50%" width="95%" class="img-responsive" alt="slide"></div>
+                          <img src="images/photos/presidentielle/pyr32.jpg"  height="50%" width="95%" class="img-responsive" alt="slide"></div>
                         <div class="item  height-full">
-                          <img src="images/photos/9.jpg" height="50%" width="95%" class="img-responsive" alt="slide">
+                          <img src="images/photos/presidentielle/pyr37.jpg" height="50%" width="95%" class="img-responsive" alt="slide">
                         </div>
-                        <div class="item  height-full"><img src="images/photos/10.jpg" height="50%" width="95%" class="img-responsive" alt="slide"></div>
+                        <div class="item  height-full">
+                          <img src="images/photos/presidentielle/pyr38.jpg" height="50%" width="95%" class="img-responsive" alt="slide">
+                          </div>
+                          <div class="item  height-full">
+                          <img src="images/photos/presidentielle/pyr40.jpg" height="50%" width="95%" class="img-responsive" alt="slide">
+                          </div>
+                          <div class="item  height-full">
+                          <img src="images/photos/presidentielle/pyr41.jpg" height="50%" width="95%" class="img-responsive" alt="slide">
+                          </div>
+                          <div class="item  height-full">
+                          <img src="images/photos/presidentielle/pyr34.jpg" height="50%" width="95%" class="img-responsive" alt="slide">
+                          </div>
                       </div>
                       <!-- Controls -->
                       <a class="left carousel-control" href="#RoomDetails" role="button" data-slide="prev"><i class="fa fa-angle-left"></i></a>
@@ -36,33 +47,39 @@
 
   <div class="room-features spacer">
     <div class="row">
-      <div class="col-sm-12 col-md-5"> 
-        <p>Space in your house How to sell faster than your neighbors How to make a strategic use. To discourage you by telling. To discourage you by telling. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. The real goal of any talk or speech. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. I m going to outline 14 different ways that I ve found you. The real goal of any talk or speech. To discourage you by telling. To discourage you by telling. Space in your house How to sell faster than your neighbors How to make a strategic use. The real goal of any talk or speech.</p>
-        <p>By Learning Ways To Become Peaceful. One of the greatest barriers to making the sale is your prospect's natural. Don't stubbornly. Don't stubbornly. Don't stubbornly. -And Gain Power By Learning Ways To Become Peaceful. </p>
+      <div class="col-sm-12 col-md-5">
+      <h3>Caracteristique</h3> 
+        <p>La suite a tout ce qu’ une chambre présidentielle exige par son design élégant et mobilier raffiné qui sont les seuls mots de notre sublime suite présidentielle, également la plus spacieuse et la plus luxueuse. Dotée d’une chambre spacieuse, D’une superbe baignoire pouvant être transformée en Jacuzzi qui vous met dans une grande relaxation. Elle est dotée aussi d’un grand lit « King » paré de linge en coton et elle abrite également une cuisine classe qui vous permet de faire ce que vous désiriez manger, un salon qui qui vous permet de rester avec vous visiteurs tout en gardant vos intimes personnel, un bureau qui vous permet de travailler dans une grande tranquillité.</p>
+        <p><strong>Equipement : - Climatisation; - télévision LCD ( Avec les programmes locaux , 6 chaines internationales) ; - téléphone avec accès direct à la reception ; - Une cuisine équipée ; - Une Garde robe ; - Mini frigo ; - Une table Bureau ; - Une douche équipée ; - Un Peignoirs en éponge ; - Produit de toilette de luxe ...</strong></p>
       </div>
       <div class="col-sm-6 col-md-3 amenitites"> 
-        <h3>Amenitites</h3>    
+        <h3>Les Services disponibles</h3>    
         <ul>
-          <li>One of the greatest barriers to making the sale is your prospect.</li>
-          <li>Principle to work to make more money while having more fun.</li>
-          <li>Unlucky people. Don't stubbornly.</li>
-          <li>Principle to work to make more money while having more fun.</li>
-          <li>Space in your house How to sell faster than your neighbors</li>
+          <li>Connexion Wi-Fi Gratuite avec haut débit.</li>
+          <li>Accès salle de sport</li>
+          <li>Accès à la piscine</li>
+          <li>Un Petit Déjeuner continental</li>
+          
+          
+          
         </ul>
       
 
       </div>  
       
-      <div class="col-sm-2 col-md-2">
-        <div class="size-price">Prix<span>$200.00</span></div>
+      <div class="col-sm-1 col-md-2">
+      <h3>Consommation</h3>
+        <div class="size-price">PRIX<span class="badge textsuccess">$ 250.00</span></div>
+        
       </div>
-    </div>
+    </div><br><br>
     <div class="row">
-      <div class="col-sm-3 col-md-2">
-        <a href="index.php?page=Accueil" class="btn btn-default">Réservé maintenant</a>
+      <div class="col-sm-2 col-md-3">
+        <a href="index.php?#booking" class="btn btn-default">Réservé maintenant</a>
       </div>
+      
       <div class="col-sm-3 col-md-2">
-        <a href="contact.php?page=contact" class="btn btn-default">Nous contacter</a>
+        <a href="contact.php?#contact" class="btn btn-default">Nous contacter</a>
       </div>
     </div>
     </div>

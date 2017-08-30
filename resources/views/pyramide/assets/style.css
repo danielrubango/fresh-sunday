@@ -31,6 +31,9 @@ h1{
 h1.title,h2{
     font-size: 2em;
     line-height: 3em;}
+   .one {
+    font-size: 1em;
+    line-height: 2em;}
 h3{
     font-size: 1.5em; 
     margin-bottom: 0.70em;}
@@ -63,6 +66,9 @@ p{
     color: #bfa145;}
 .spacer{
     padding:6em 0; }
+    #taille{
+        margin-top: 15px;
+    }
 
 /*nav*/
 .navbar{
@@ -80,9 +86,12 @@ p{
     border:none;
     background: #eeeeee;}
 .navbar-brand{
-    height: 83px;
-}
+    height: 93px;
 
+}
+.name{
+    top: 15px;
+}
 /*Mes nav*/
 
 /*moving banner*/
@@ -125,11 +134,14 @@ p{
     position: absolute;
     bottom:-3.5em;
     background-color: #bfa145;
-    height: 7em;width: 7em;
+    height: 7em;
+    width: 7em;
     display: inline-block;
-    z-index: 100;left: 50%;
+    z-index: 100;
+    left: 50%;
     margin-left: -52px;
-    color: #fff;border-radius: 50%;}
+    color: #fff;
+    border-radius: 50%;}
 .banner .arrow-nav i{
     font-size: 5em;
     line-height:105px;}
@@ -165,6 +177,7 @@ p{
     width: 100%;}
     .panel{
         size: 12px;
+
     }
 
 /*footer*/
@@ -219,19 +232,24 @@ footer .subscribe .social a{
 
 
 
-
-
-
-
 /*unform*/
-.radio-inline{padding-top: 4px;padding-left: 0;}
-.form-horizontal .radio{padding-top: 3px;}
-.radio-inline input[type="radio"]{margin-left: 0;}
-div.radio{margin-right: 10px;}
-div.radio span{background:url(../images/radio.png) 0 20px !important;}
+.radio-inline{
+    padding-top: 4px;
+    padding-left: 0;}
+.form-horizontal .radio{
+    padding-top: 3px;}
+.radio-inline input[type="radio"]{
+    margin-left: 0;}
+div.radio{
+    margin-right: 10px;}
+div.radio span{
+    background:url(../images/radio.png) 0 20px !important;}
 
-div.radio span,div.radio input{width: 20px;height: 20px;}
-div.radio span.checked{background-position: 0 0 !important;}
+div.radio span,div.radio input{
+    width: 20px;
+    height: 20px;}
+div.radio span.checked{
+    background-position: 0 0 !important;}
 
 
 .form-control{
@@ -283,14 +301,25 @@ div.selector option{ padding: 10px;}
     border-radius: 7px 7px 0px 0px ;}
 
 
-.room-features .amenitites li{margin-bottom: 1em;}
-.room-features .size-price{background-color: #C7C5BB;padding: 2em 0;text-align: center;color: #fff;height: 10.97em;line-height: 3em;}
-.room-features .size-price span{display: block;
-    font-size: 2em;}
+.room-features .amenitites li{
+    margin-bottom: 1em;}
+.room-features .size-price{
+    background-color: #C7C5BB;
+    padding: 2em 0;
+    text-align: center;
+    color: #fff;
+    height: 10.97em;
+    line-height: 3em;}
+.room-features .size-price span{
+    display: block;
+    font-size: 1em;}
 
 
-.gallery .gallery-image{margin-bottom: 2em;display: inline-block;}
-.gallery .gallery-image img{width: 100%;}
+.gallery .gallery-image{
+    margin-bottom: 2em;
+    display: inline-block;}
+.gallery .gallery-image img{
+    width: 100%;}
 
 body::-webkit-scrollbar {
         width: 6px;
@@ -327,15 +356,21 @@ body::-webkit-scrollbar {
 @media (max-width: 991px){
 }
 @media (max-width: 767px){	
-	.navbar-toggle{margin-top: 23px;}
-    .navbar-default .navbar-toggle{background-color: #bfa145;}
-    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background-color: #5F5021;}
-    .navbar-default .navbar-toggle .icon-bar {background-color: #fff;}
-    .navbar-nav > li > a{line-height: 1em;}
+	.navbar-toggle{
+        margin-top: 23px;}
+    .navbar-default .navbar-toggle{
+        background-color: #bfa145;}
+    .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+        background-color: #5F5021;}
+    .navbar-default .navbar-toggle .icon-bar {
+        background-color: #fff;}
+    .navbar-nav > li > a{
+        line-height: 1em;}
 
-    h2{
+    h1{
         text-align: center;
-        font-size: 2em;}
+        font-size: 2em;
+        color: #000000;}
     .banner p {font: 300 1em/1em 'Old Standard TT', serif;}
     .banner .arrow-nav{
         margin-left: -22px;height: 3em;width: 3em;bottom: -1.5em;}
@@ -349,8 +384,10 @@ body::-webkit-scrollbar {
 
     .services div.col-sm-4{margin-bottom: 2em;}
 
-    footer.spacer{padding:1em 0 3em 0 ;}
-    footer h4{margin-top: 2em;}
+    footer.spacer{
+        padding:1em 0 3em 0 ;}
+    footer h4{
+        margin-top: 2em;}
 
     .room-features .size-price{margin-bottom: 2em;}
 }
