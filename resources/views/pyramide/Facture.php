@@ -66,6 +66,7 @@
                                 <img src="images/photos/logo/logo11.jpg" width="302" height="73" alt="pyramide hotel">
                                 <div class="fact-bouge" >FACTURATION</div>
                             </td>
+                            <td class="text-right">Date</td>
                             
                         </tr></tbody></table>
                 <table class="table table-condensed">
@@ -85,9 +86,7 @@
                                 </ul>
                             </td>
                             <td class="text-center"><strong>No Facture</strong> 
-                            <ul>
-                                <li>Date du jour </li>
-                            </ul>
+                            
                             </td>
                         </tr>
                     </tbody>
