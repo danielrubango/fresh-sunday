@@ -193,6 +193,7 @@
 	                <div class="panel-footer">
 	                	<div class="bs-example">
     <!-- Button HTML (to Trigger Modal) -->
+
 					    <input type="button" class="btn btn-lg btn-default toggle-modal" value="Envoyer" >
 					    
 					    <!-- Modal HTML -->
@@ -206,12 +207,12 @@
 					          <div class="modal-body">
 					          	<p>Nous acquison reception</p>
 					            <p>Nous Vous Confirmerons Par  Un Message (E-mail ou SMS)</p>
-					            <p class="text-warning"><small>Veuillez  consulter votree boite E-mail dans les prochaines qui suivent</small></p>
+					            <p class="text-warning"><small>Veuillez  consulter votre boite E-mail dans les prochaines qui suivent</small></p>
 					          </div>
-							 <div class="modal-footer">
+							<div class="modal-footer">
 								            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
 								            
-								          </div>
+							</div>
 							        </div>
 							      </div>
 							    </div>
