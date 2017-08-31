@@ -191,7 +191,32 @@
 	                        </div>
 	                </div> <!--close panel--> 
 	                <div class="panel-footer">
-						<button class="btn btn-default">ENVOYER</button>
+	                	<div class="bs-example">
+    <!-- Button HTML (to Trigger Modal) -->
+					    <input type="button" class="btn btn-lg btn-default toggle-modal" value="Envoyer" >
+					    
+					    <!-- Modal HTML -->
+					    <div id="myModal" class="modal fade">
+					      <div class="modal-dialog">
+					        <div class="modal-content">
+					          <div class="modal-header">
+					            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					            <h4 class="modal-title">Confirmation</h4>
+					          </div>
+					          <div class="modal-body">
+					          	<p>Nous acquison reception</p>
+					            <p>Nous Vous Confirmerons Par  Un Message (E-mail ou SMS)</p>
+					            <p class="text-warning"><small>Veuillez  consulter votree boite E-mail dans les prochaines qui suivent</small></p>
+					          </div>
+							 <div class="modal-footer">
+								            <button type="button" class="btn btn-default" data-dismiss="modal">Fermer</button>
+								            
+								          </div>
+							        </div>
+							      </div>
+							    </div>
+							</div>
+									
 	                </div>
 	                        
                    		</form>
@@ -303,6 +328,108 @@
 <!-- services -->
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+$(document).ready(function(){
+    $('.toggle-modal').click(function(){
+        $('#myModal').modal('toggle');
+    }); 
+});
+</script>
+<style type="text/css">
+.bs-example{
+    margin: 20px;
+    margin-bottom: 12px;
+}
+/* Some custom styles to beautify this example */
+.toggle-modal{
+    width: 200px;
+    position: absolute;
+    margin: 0 auto;
+    z-index: 9999;
+    bottom: 20px;
+    right: 0;
+    left: 0;
+}
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <script type="text/javascript">
 
  		var images=["images/photos/banner/banner1.jpg", "images/photos/banner/banner2.jpg","images/photos/banner/banner3.jpg"];
